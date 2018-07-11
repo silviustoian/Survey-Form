@@ -104,5 +104,8 @@ input[type=text], select, textarea{
       width: 100%;
       margin-top: 0;
     }
+    .col-25{
+        text-align: left;
+    }
   }
   
