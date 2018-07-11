@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(142, 204, 255);
+}
+
+/* Style inputs, select elements and textareas */
+
+input[type=text], select, textarea{
+    width: 100%;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+   
+
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+      position: relative;
+      left: 45%;
+   
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color:white;
+    margin: 0 auto;
+    width: 70%;
+
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    text-align: right;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 80%;
+    
+    
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 30%;
+    margin-top: 8px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #title{
+      text-align: center;
+      font-family: sans-serif;
+  }
+
+  #description{
+      text-align: center;
+      
+
+  }
+  
+  input[type=email], select, textarea{
+    width: 100%;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+   
+
+  }
+  
