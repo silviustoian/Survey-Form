@@ -107,5 +107,8 @@ input[type=text], select, textarea{
     .col-25{
         text-align: left;
     }
+    .container{
+        width: 90%;
+    }
   }
   
